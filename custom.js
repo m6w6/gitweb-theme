@@ -10,7 +10,7 @@
 	[].slice.call(d.querySelectorAll(".page_nav a+br")).forEach(function(v) {
 		v.parentNode.replaceChild(d.createTextNode(" | "),v)
 	});
-	
+
 	/* summary */
 	var q = {};
 	location.search.substring(1).split(";").forEach(function(p) {
@@ -39,4 +39,3 @@
 		x.send();
 	}
 })(document);
-
