@@ -6,7 +6,13 @@
 .markdown-body ul, .markdown-body ol {
 	list-style: initial;
 }
-
+.projsearch {
+	text-align: right;
+	max-width: 50%;
+}
+.projsearch input[type=text] {
+	max-width: 50%;
+}
 /* the following is from github.com */
 
 .readme.contributing>div {
